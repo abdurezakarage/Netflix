@@ -1,0 +1,18 @@
+.footer_data{
+    display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-template-rows: repeat(5, 1fr); */
+  gap: 10px;
+color: white;
+background-color: black;
+    
+}
+.footer_data ul{
+    list-style: none;
+}
+.service_code{
+    color: white;
+}
+.copy-write{
+    color: white;
+}
