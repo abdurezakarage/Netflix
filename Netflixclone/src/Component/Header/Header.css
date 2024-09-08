@@ -5,8 +5,8 @@
     justify-content: center;
     align-items: center;
     
-    background-color: rgb(20, 20, 20);
-      /* background-color: transparent; */
+    /* background-color: rgb(20, 20, 20); */
+      background-color: transparent;
   
     /* background-color: red; */
     height: 10vh;
@@ -21,24 +21,37 @@
     display: flex;
     justify-content: space-between;
     list-style: none;
-    width: 140%;
+    width: 120%;
+    align-items: center;
+   
     
 }
+.header_left{
+    position: fixed;
+    left: 1px;
+}
 .header_right ul{
+
     display: flex;
     justify-content: space-between;
     list-style: none;
     width: 140%;
 }
+.header_right{
+      position: fixed;
+    right: 50px;
+}
 
-/* .nav_black{
+.nav_black{
     background-color: rgb(20, 20, 20);
-} */
+}
 .header_container{
-    width: 90%;
+    width: 100%;
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
     align-items:center;
-   
-
+}
+.logo{
+    width: 70px;
+    padding-top: 10px;
 }

@@ -5,9 +5,9 @@ function Footer() {
     <div className="footer_outer_container">
       <div className="footer_inner_container">
         <div className="footer_icons">
-          <facebook />
+          {/* <facebook />
           <instagram />
-          <youtube />
+          <youtube /> */}
         </div>
         <div className="footer_data">
           <div>
@@ -42,9 +42,7 @@ function Footer() {
         <div className="service_code">
           <p>Service Code</p>
         </div>
-        <div className="copy-write">
-&copy; 1974-2024 Netflix.inc
-        </div>
+        <div className="copy-write">&copy; 1974-2024 Netflix.inc</div>
       </div>
     </div>
   );
