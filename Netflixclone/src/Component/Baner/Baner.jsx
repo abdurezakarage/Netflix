@@ -25,7 +25,7 @@ function truncate(str,n){
       style={{
         backgroundSize: "cover",
         backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
-        backgroundPosition: "center"
+        backgroundPosition: "center",
       }}
     >
       <div className="baner_contents">
@@ -36,9 +36,9 @@ function truncate(str,n){
           <button className="baner_button">Play</button>
           <button className="baner_button">My List</button>
         </div>
-        <h1 className="baner_description">{truncate(movie?.overview,150)}</h1>
+        <h1 className="baner_description">{truncate(movie?.overview, 150)}</h1>
       </div>
-      <div className='baner_fadeButton'/>
+      <div className="baner_fadeButton" />
     </header>
   );
 }

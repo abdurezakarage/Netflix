@@ -24,10 +24,9 @@ color: white;
    overflow-y: hidden;
    scrollbar-width: 1px;
 }
-/* .row_posters::-webkit-scrollbar{
+.row_posters::-webkit-scrollbar{
     display: none;
-
-} */
+}
 .row_poster:hover{
     transform: scale(1.08);
 }

@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    width: 100%;
     /* background-color: rgb(20, 20, 20); */
       background-color: transparent;
   
@@ -54,4 +54,11 @@
 .logo{
     width: 70px;
     padding-top: 10px;
+}
+@media (max-width: 768px) {
+  .header_left {
+    position: absolute;
+    left: -30%;
+    transition: left 0.5s ease-in-out;
+  }
 }

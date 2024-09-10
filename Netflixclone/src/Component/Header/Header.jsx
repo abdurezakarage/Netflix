@@ -4,6 +4,8 @@ import SearchIcon from "@mui/icons-material/Search";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import AccountBoxIcon from "@mui/icons-material/AccountBox";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+// import ".bootstrap.css"
+// import ".bootstrap.js";
 import "./Header.css";
 function Header() {
   const [show, handleShow] = useState(false);
@@ -18,9 +20,10 @@ function Header() {
     // };
   }, []);
   return (
-    <div className={`header_outer_container ${show && "nav_black"}`}>
+    <div className={`header_outer_container  ${show && "nav_black"}`}>
       <div className="header_container">
         <div className="header_left">
+         
           <ul>
             <li>
               <img className="logo" src={netflixlogo} />

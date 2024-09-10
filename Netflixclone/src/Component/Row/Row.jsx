@@ -23,9 +23,9 @@ function Row({ title, fetchUrl, isLarge }) {
   const opts = {
     height: "290",
     width: "80%",
-    // playerVars: {
-    //   autoplay: 1,
-    // },
+    playerVars: {
+      autoplay: 1,
+    },
   };
  
   const handleClick = (movie) => {
